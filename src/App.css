@@ -1,11 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   /* text-align: center; */
-  margin: 43px 100px;
 }
+
+
 
 body{
   font-family: 'Red Rose', cursive;
+}
 
+.label{
+  margin: 0;
 }
 
 .App-logo {

@@ -1,0 +1,18 @@
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 67px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    padding: 10px 100px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .label{
+        flex-direction: column;
+        gap: 26px;
+        padding: 10px;
+    } 
+}

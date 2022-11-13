@@ -1,0 +1,45 @@
+.inspo{
+    margin: 39px 100px 0 100px;
+    
+}
+
+.inspo-heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.inspo-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.inspo-card{
+    /* width: 292px; */
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 43px;
+}
+
+.inspo-card-image{
+    width: 100%;
+}
+
+.inspo-card-image > img{
+    width: 100%;
+}
+
+.inspo-card-title, .inspo-card-desc{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.inspo-card-rating{
+    margin-top: 10px;
+}
