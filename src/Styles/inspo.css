@@ -1,6 +1,5 @@
 .inspo{
-    margin: 39px 100px 0 100px;
-    
+    margin: 39px 100px 0 100px; 
 }
 
 .inspo-heading{
@@ -42,4 +41,26 @@
 
 .inspo-card-rating{
     margin-top: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .inspo{
+        margin: 25px;
+    }
+
+    .inspo-cards{
+        grid-template-columns: 1fr 1fr;
+    }   
+}
+
+
+@media screen and (max-width: 425px){
+    .inspo-cards{
+        grid-template-columns: 100%;
+    }  
 }
