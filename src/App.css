@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 43px 100px;
+}
+
+body{
+  font-family: 'Red Rose', cursive;
+
 }
 
 .App-logo {
@@ -34,5 +40,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .App {
+    margin: 30px;
   }
 }
