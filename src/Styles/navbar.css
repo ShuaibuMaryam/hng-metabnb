@@ -72,13 +72,12 @@ nav{
 
 @media screen and (max-width: 768px) {
     nav{
-        gap: 0;
         justify-content: space-between;
+        gap: 0;
     }
 
     .nav-menu{
         display: none;
-        /* width: unset; */
         position: absolute;
         left: 0;
         top: 17vh;
@@ -87,6 +86,7 @@ nav{
         height: calc(100vh - 8vh);
         text-align: center;
         border-top: 1px solid #A02279;
+        background-color: #FFFFFF;
     }
 
     .nav-menu.expanded{
