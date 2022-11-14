@@ -18,6 +18,7 @@ body{
   margin: 0;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -54,8 +55,4 @@ body{
 }
 
 
-@media screen and (max-width: 768px) {
-  .App {
-    /* margin: 30px; */
-  }
-}
+

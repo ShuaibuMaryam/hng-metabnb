@@ -1,3 +1,7 @@
+.home{
+    z-index: 1000;
+  }
+
 nav{
     display: flex;
     gap: 163px;

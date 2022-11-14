@@ -23,6 +23,9 @@
     color: #333333;
 }
 
+.connect-header > span{
+    cursor: pointer;
+}
 .connect-options{
     padding: 24px 32px;
 }
@@ -65,4 +68,26 @@
     bottom: 0;
     background: rgba(196, 196, 196, 0.42);
     z-index: 1;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .connect-wallet{
+        width: 70%;
+        left: 15%;
+        top: 20%;
+    } 
+}
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    .connect-wallet{
+        width: 100%;
+        left: 0;
+        top: 20%;
+    } 
 }

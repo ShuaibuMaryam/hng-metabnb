@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../../Assets/home/logo.png'
 
-function Navbar(openWalletModal) {
+function Navbar({openWalletModal}) {
 
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 

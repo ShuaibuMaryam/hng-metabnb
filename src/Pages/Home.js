@@ -6,24 +6,27 @@ import Label from '../Components/Home/Label'
 import Navbar from '../Components/Home/Navbar'
 import Nfts from '../Components/Home/Nfts'
 import WalletModal from './WalletModal'
+import '../Styles/navbar.css'
 
 function Home() {
 
-  const [openWalletModal, setOpenWAlletModal] = useState(false)
+  const [openWalletModal, setOpenWalletModal] = useState(false)
 
   const handleOpenWalletModal = () =>{
     console.log('clicked')
-    setOpenWAlletModal(true)
+    setOpenWalletModal(true)
   }
 
   const handleCloseWalletModal = () => {
-    setOpenWAlletModal(false)
+    console.log('closed')
+    setOpenWalletModal(false)
   }
   return (
-    <div>
-        {openWalletModal && <WalletModal openWalletModal = {handleOpenWalletModal}/>}
+    <div className='home'>
+      
+        {openWalletModal && <WalletModal openWalletModal = {handleCloseWalletModal}/>}
 
-        <Navbar openWalletModal = {handleCloseWalletModal}/>
+        <Navbar openWalletModal = {handleOpenWalletModal}/>
 
         <Hero />
 

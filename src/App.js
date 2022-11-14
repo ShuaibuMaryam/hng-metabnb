@@ -28,8 +28,7 @@ function App() {
 
           <Route path='/' element={<Home openWalletModal = {handleOpenWalletModal}/>}/>
           <Route path='/places' element={<Places openWalletModal = {handleOpenWalletModal}/>}/>
-          {/* <Route path='/walletModal' element={<WalletModal />}/> */}
-
+          
         </Routes>
 
       </BrowserRouter>
