@@ -43,3 +43,21 @@
     color: #FFFFFF;
     margin-top: 1rem;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        padding: 25px;
+        grid-template-columns: 1fr 1fr; 
+        gap: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px){
+    .footer{
+        grid-template-columns: 100%; 
+    }
+}
