@@ -1,5 +1,4 @@
-import card1Image from '../../Assets/home/card-1-img.png'
-import starRatings from '../../Assets/home/star-ratings.png'
+import React from 'react'
 import '../../Styles/inspo.css'
 
 

@@ -13,14 +13,14 @@ function Navbar() {
     <div>
         <nav className='navigation'>
             <div className='navbar-brand'>
-                <a href='#'><img src={logo}/></a>
+                <a href='/'><img src={logo}/></a>
             </div>
             
             <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
                 
                 <ul className="nav-links">
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Place to stay</a></li>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/places'>Place to stay</a></li>
                     <li><a href='#'>NFTs</a></li>
                     <li><a href='#'>Community</a></li>
                 </ul>

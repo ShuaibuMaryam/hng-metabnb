@@ -106,3 +106,12 @@ nav{
         cursor: pointer;
     }
 }
+
+
+
+@media screen and (max-width: 420px){
+    nav{
+        margin: 0;
+
+    }
+}
