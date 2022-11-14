@@ -64,7 +64,13 @@
 
 
 @media screen and (max-width: 425px){
+    .inspo-heading{
+        font-size: 30px;
+    }
+
+
     .inspo-cards{
         grid-template-columns: 100%;
     }  
+
 }

@@ -58,7 +58,7 @@
     }
 
     .nft-text a{
-        /* padding: 14px 33px; */
+        padding: 14px 0;
         width: 100%;
         text-align: center;
     }
