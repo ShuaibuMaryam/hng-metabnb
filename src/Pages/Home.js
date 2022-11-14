@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Home/Footer'
 import Hero from '../Components/Home/Hero'
 import Inspo from '../Components/Home/Inspo'
 import Label from '../Components/Home/Label'
@@ -17,6 +18,8 @@ function Home() {
         <Inspo />
 
         <Nfts />
+
+        <Footer />
     </div>
   )
 }
