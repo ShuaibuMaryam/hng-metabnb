@@ -1,7 +1,5 @@
 .nfts{
     display: flex;
-    /* gap: 122px; */
-    /* justify-content: space-between; */
     padding: 100px 100px 0 100px; 
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
@@ -39,3 +37,27 @@
 
 
 
+
+
+@media screen and (max-width: 768px) {
+    .nfts{
+        flex-direction: column;
+        gap: 122px;
+        padding: 25px; 
+    }
+
+    .nft-image{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nft-image > img{
+        width: 100%;
+    }
+
+    .nft-text a{
+        /* padding: 14px 33px; */
+        width: 100%;
+    }
+}
