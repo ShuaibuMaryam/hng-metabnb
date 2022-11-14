@@ -5,11 +5,11 @@ import NavbarSecondary from '../Components/Places/NavbarSecondary'
 import PlacesCards from '../Components/Places/PlacesCards'
 import '../Styles/navbar.css'
 
-function Places({openWalletModalPlaces}) {
+function Places({openWalletModal}) {
   return (
     <div className='places'>
 
-        <Navbar opopenWalletModalPlaces = {openWalletModalPlaces}/>
+        <Navbar opopenWalletModal = {openWalletModal}/>
 
         <NavbarSecondary />
 

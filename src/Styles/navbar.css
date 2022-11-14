@@ -69,13 +69,19 @@ nav{
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     nav{
         justify-content: space-between;
         gap: 0;
         margin: 25px;
     }
-
+    
     .nav-menu{
         display: none;
         position: absolute;
@@ -83,28 +89,28 @@ nav{
         top: 17vh;
         flex-direction: column;
         width: 100%;
-        height: calc(100vh - 8vh);
+        height: calc(100vh - 10vh);
         text-align: center;
         border-top: 1px solid #A02279;
         background-color: #FFFFFF;
     }
-
+    
     .nav-menu.expanded{
         display: block;
     }
-
+    
     .nav-links{
         flex-direction: column;
     }
-
+    
     .nav-links li{
         margin: 1rem 0;
     }
-
+    
     .nav-btn{
         margin: 1rem 0;
     }
-
+    
     .hamburger{
         display: block;
         cursor: pointer;
@@ -116,7 +122,7 @@ nav{
 @media screen and (max-width: 420px){
     nav{
         margin: 25px;
-
+        
     }
     .navbar-brand{
         width: 50%;
@@ -126,4 +132,20 @@ nav{
         width: 100%;
     }
     
+}
+
+
+
+@media screen and (max-width: 1024px){
+    nav{
+        margin: 15px;
+    }
+
+    .nav-links li{
+        margin: 0 .6rem ;
+    }
+
+    .nav-btn{
+        /* margin-left: 1rem ; */
+    }
 }

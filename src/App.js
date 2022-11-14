@@ -2,9 +2,10 @@ import React, {useState} from 'react'
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './Pages/Home';
-import './Styles/navbar.css'
 import Places from './Pages/Places';
 import WalletModal from './Pages/WalletModal';
+import './Styles/navbar.css'
+
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
         <Routes>
 
           <Route path='/' element={<Home openWalletModal = {handleOpenWalletModal}/>}/>
-          <Route path='/places' element={<Places openWalletModalPlaces = {handleOpenWalletModal}/>}/>
+          <Route path='/places' element={<Places openWalletModal = {handleOpenWalletModal}/>}/>
 
         </Routes>
 
