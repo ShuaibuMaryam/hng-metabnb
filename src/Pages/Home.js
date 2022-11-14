@@ -8,25 +8,13 @@ import Nfts from '../Components/Home/Nfts'
 import WalletModal from './WalletModal'
 import '../Styles/navbar.css'
 
-function Home() {
+function Home({openWalletModal}) {
 
-  const [openWalletModal, setOpenWalletModal] = useState(false)
-
-  const handleOpenWalletModal = () =>{
-    console.log('clicked')
-    setOpenWalletModal(true)
-  }
-
-  const handleCloseWalletModal = () => {
-    console.log('closed')
-    setOpenWalletModal(false)
-  }
+  
   return (
     <div className='home'>
-      
-        {openWalletModal && <WalletModal openWalletModal = {handleCloseWalletModal}/>}
 
-        <Navbar openWalletModal = {handleOpenWalletModal}/>
+        <Navbar openWalletModal = {openWalletModal}/>
 
         <Hero />
 

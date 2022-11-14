@@ -8,27 +8,28 @@ import WalletModal from './Pages/WalletModal';
 
 function App() {
 
-  const [openWalletModal, setOpenWAlletModal] = useState(false)
+  const [openWalletModal, setOpenWalletModal] = useState(false)
 
   const handleOpenWalletModal = () =>{
-    console.log('clicked')
-    setOpenWAlletModal(true)
+    setOpenWalletModal(true)
   }
 
   const handleCloseWalletModal = () => {
-    setOpenWAlletModal(false)
+    setOpenWalletModal(false)
   }
 
   return (
     <div className="App">
+
+        {openWalletModal && <WalletModal openWalletModal = {handleCloseWalletModal}/>}
 
         <BrowserRouter>
 
         <Routes>
 
           <Route path='/' element={<Home openWalletModal = {handleOpenWalletModal}/>}/>
-          <Route path='/places' element={<Places openWalletModal = {handleOpenWalletModal}/>}/>
-          
+          <Route path='/places' element={<Places openWalletModalPlaces = {handleOpenWalletModal}/>}/>
+
         </Routes>
 
       </BrowserRouter>
