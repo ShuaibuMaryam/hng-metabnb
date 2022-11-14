@@ -1,0 +1,68 @@
+.connect-wallet{
+    width: 600px;
+    /* border: 1px solid; */
+    background: #FFFFFF;
+    border-radius: 16px;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    z-index: 1000;
+}
+
+.connect-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    border-bottom: 1px solid  #CFD8DC;
+}
+
+.connect-header > span, h6{
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+}
+
+.connect-options{
+    padding: 24px 32px;
+}
+
+.connect-options > span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.connect-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: #F8F9FA;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.connect-option-icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.connect-option-icons h6{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(196, 196, 196, 0.42);
+    z-index: 1;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../../Assets/home/logo.png'
 
-function Navbar() {
+function Navbar(openWalletModal) {
 
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
@@ -26,7 +26,7 @@ function Navbar() {
                 </ul>
 
                 <div className="nav-btn-wrapper">
-                    <button className='nav-btn'>Connect wallet</button>
+                    <button className='nav-btn' onClick={openWalletModal}>Connect wallet</button>
                 </div>
 
             </div>
